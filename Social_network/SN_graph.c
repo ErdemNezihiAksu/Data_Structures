@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "SN_graph.h"
 
 graph *Create_Graph()
@@ -283,6 +280,45 @@ void Delete_user(graph *g)
     g->user_count--;
 }
 
+void Info_User(graph *g)
+{
+    if(g->root == NULL)
+    {
+        printf("No user\n");
+        return;
+    }
+    List *iter = g->root;
+    Node *iterN;
+    char nickname[10];
+    printf("Enter user's nickname: ");
+    scanf("%9[^\n]",nickname);
+    while(getchar()!='\n');
+    while (iter != NULL)
+    {
+        if(strcmp(iter->person.nickname,nickname) == 0)
+        {
+            printf("\nName: %s\nNickname: %s\nFriend count: %d",iter->person.name,iter->person.nickname,iter->friend_count);
+            if(iter->friend_count != 0)
+            {
+                printf("\nFriends: ");
+                iterN = iter->head;
+                while(iterN != NULL)
+                {
+                    if(iterN == iter->head)
+                        printf("%s (%s)",iterN->buddy.name,iterN->buddy.nickname);
+                    else
+                        printf(", %s (%s)",iterN->buddy.name,iterN->buddy.nickname);
+                    iterN = iterN->next;
+                }
+            }
+            break;
+        }
+        iter = iter->next;
+    }
+    if(iter == NULL)
+        printf("No such nickname");
+    printf("\n");
+}
 int Delete_Node(List *user, const char *nickname)
 {
     Node *temp, *iter;
@@ -294,7 +330,7 @@ int Delete_Node(List *user, const char *nickname)
         user->head = user->head->next;
         free(temp);
         user->friend_count--;
-        return (user->head == NULL) ? 0 : 1;
+        return 1;
     }
     iter = user->head;
     while (iter->next != NULL)
@@ -305,11 +341,11 @@ int Delete_Node(List *user, const char *nickname)
             iter->next = iter->next->next;
             free(temp);
             user->friend_count--;
-            break;
+            return 1;
         }
         iter = iter->next;
     }
-    return 1;
+    return 0;
 }
 
 void Destroy_Friends(List *user)

@@ -1,6 +1,4 @@
 #include "SN_graph.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 int Menu()
 {
@@ -39,7 +37,8 @@ int main()
     while(1)
     {
         int opt = Menu();
-        char c;
+        char c, nickname[10];
+        List *user;
         getchar();
         switch (opt)
         {
@@ -56,8 +55,30 @@ int main()
             Add_friend(g);
             break;
         case 5:
+        label:
+            printf("Enter the user's nickname: ");
+            scanf("%9[^\n]", nickname);
+            while(getchar()!='\n');
+            user = g->root;
+            while(user != NULL)
+            {
+                if(strcmp(user->person.nickname,nickname) == 0)
+                    break;
+                user = user->next;
+            }
+            if(user == NULL)
+            {
+                printf("No such user\n");
+                goto label;
+            }
+            printf("Enter %s's friend's nickname: ",user->person.name);
+            scanf("%9[^\n]",nickname);
+            while(getchar()!='\n');
+            if(Delete_Node(user,nickname) == 0)
+                printf("No such friend\n");
             break;
         case 6:
+            Info_User(g);
             break;
         case 7:
             Destory_Graph(g);
@@ -68,12 +89,12 @@ int main()
         default:
             if(g->root != NULL){
                 printf("Do you want to save changes? (y/n): ");
-                label:
+                label1:
                 scanf(" %c",&c);
                 if(c != 'y' && c != 'n')
                 {
                     printf("Invalid option!\n> ");
-                    goto label;
+                    goto label1;
                 }
                 if(c == 'y')
                     Write_bin_file(g, "database.bin");
