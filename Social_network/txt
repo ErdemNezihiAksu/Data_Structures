@@ -1,0 +1,2 @@
+gcc -g Social_network.c SN_graph.c -o test
+breakpoint set -f Social_network.c -l 14
