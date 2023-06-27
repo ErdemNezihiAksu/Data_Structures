@@ -78,6 +78,8 @@ int main()
                 if(c == 'y')
                     Write_bin_file(g, "database.bin");
             }
+            else if(f != NULL)
+                remove("database.bin");
             Destory_Graph(g);
             return 0;
         }

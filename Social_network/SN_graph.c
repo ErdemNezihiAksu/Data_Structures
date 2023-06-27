@@ -92,7 +92,7 @@ void Read_bin_file(graph *g, char *filename)
 
 void print_graph(graph *g)
 {
-    if(g->root == NULL)
+    if (g->root == NULL)
     {
         printf("No user\n");
         return;
@@ -102,8 +102,8 @@ void print_graph(graph *g)
     while (iter != NULL)
     {
         char string[34];
-        sprintf(string,"%s (%s)",iter->person.name,iter->person.nickname);
-        printf("%-34s|",string);
+        sprintf(string, "%s (%s)", iter->person.name, iter->person.nickname);
+        printf("%-34s|", string);
         iterNode = iter->head;
         while (iterNode != NULL)
         {
@@ -126,11 +126,13 @@ void Add_User(graph *g)
     Person newPerson;
     printf("Enter the new user's  name: ");
     scanf("%19[^\n]", newPerson.name);
-    while(getchar() != '\n');
+    while (getchar() != '\n')
+        ;
     printf("Enter %s's nickname: ", newPerson.name);
 label:
     scanf("%9[^\n]", newPerson.nickname);
-    while(getchar() != '\n');
+    while (getchar() != '\n')
+        ;
     if (g->root != NULL)
     {
         while (iter != NULL)
@@ -179,10 +181,12 @@ void Add_friend(graph *g)
 label:
     printf("Enter the user's nickname: ");
     scanf("%9[^\n]", from.nickname);
-    while(getchar() != '\n');
+    while (getchar() != '\n')
+        ;
     printf("Enter the friend's nickname: ");
     scanf("%9[^\n]", to.nickname);
-    while(getchar() != '\n');
+    while (getchar() != '\n')
+        ;
     if (strcmp(from.nickname, to.nickname) == 0)
     {
         printf("Person can not be friend with him/herself\n");
@@ -229,82 +233,83 @@ label:
 
 void Delete_user(graph *g)
 {
-    if(g->root == NULL)
+    if (g->root == NULL)
     {
         printf("No user\n");
         return;
     }
     List *iterL, *temp;
-    Node *iterN, *tempN;
     char nickname[10];
     int flag = 0;
 
     printf("Enter the nickname of the user: ");
-    scanf("%9[^\n]",nickname);
-    while(getchar()!= '\n');
-    if(strcmp(g->root->person.nickname,nickname) == 0)
+    scanf("%9[^\n]", nickname);
+    while (getchar() != '\n')
+        ;
+    if (strcmp(g->root->person.nickname, nickname) == 0)
     {
-        if(g->root->friend_count != 0)
+        if (g->root->friend_count != 0)
             Destroy_Friends(g->root);
         temp = g->root;
         g->root = g->root->next;
         free(temp);
         flag = 1;
-        if(g->root == NULL)
+        if (g->root == NULL)
             return;
     }
     iterL = g->root;
-    if(iterL->next != NULL)
+    while (iterL->next != NULL)
     {
-        while(iterL != NULL)
+        if (strcmp(iterL->next->person.nickname, nickname) == 0)
         {
-            if(strcmp(iterL->next->person.nickname,nickname) == 0)
-            {
-                if(iterL->next->friend_count != 0)
-                    Destroy_Friends(iterL->next);
-                temp = iterL->next;
-                iterL->next = iterL->next->next;
-                free(temp);
-                flag = 1;
-            }
-            label:
-            if(iterL->friend_count != 0)
-            {
-                iterN = iterL->head;
-                if(strcmp(iterL->head->buddy.nickname,nickname) == 0)
-                {
-                    tempN = iterL->head;
-                    iterL->head = iterL->head->next;
-                    free(tempN);
-                    iterL->friend_count--;
-                }
-                else
-                {
-                    while(iterN->next != NULL)
-                    {
-                        if(strcmp(iterN->next->buddy.nickname,nickname) == 0)
-                        {
-                            tempN = iterN->next;
-                            iterN->next = iterN->next->next;
-                            free(tempN);
-                            iterL->friend_count--;
-                            break;
-                        }
-                        iterN = iterN->next;
-                    }
-                }
-            }
-            iterL = iterL->next;
-            if(iterL != NULL)
-            {
-                if(iterL->next == NULL)
-                    goto label;
-            }     
+            if (iterL->next->friend_count != 0)
+                Destroy_Friends(iterL->next);
+            temp = iterL->next;
+            iterL->next = iterL->next->next;
+            free(temp);
+            flag = 1;
         }
+        if (iterL->friend_count != 0)
+        {
+            Delete_Node(iterL, nickname);
+        }
+        iterL = iterL->next;
     }
-    if(flag == 0)
+    if (iterL->friend_count != 0)
+        Delete_Node(iterL, nickname);
+
+    if (flag == 0)
         printf("No such user\n");
     g->user_count--;
+}
+
+int Delete_Node(List *user, const char *nickname)
+{
+    Node *temp, *iter;
+    if (user->head == NULL)
+        return 0;
+    if (strcmp(user->head->buddy.nickname, nickname) == 0)
+    {
+        temp = user->head;
+        user->head = user->head->next;
+        free(temp);
+        user->friend_count--;
+        return (user->head == NULL) ? 0 : 1;
+    }
+    iter = user->head;
+    while (iter->next != NULL)
+    {
+        if (strcmp(iter->next->buddy.nickname, nickname) == 0)
+        {
+            temp = iter->next;
+            iter->next = iter->next->next;
+            free(temp);
+            user->friend_count--;
+            break;
+        }
+        iter = iter->next;
+    }
+    return 1;
 }
 
 void Destroy_Friends(List *user)
@@ -312,13 +317,13 @@ void Destroy_Friends(List *user)
     Node *iter, *current;
 
     current = user->head;
-    if(current != NULL)
+    if (current != NULL)
         iter = current->next;
-    while(current != NULL)
+    while (current != NULL)
     {
         free(current);
         current = iter;
-        if(iter!=NULL)
+        if (iter != NULL)
             iter = iter->next;
     }
     user->head = NULL;

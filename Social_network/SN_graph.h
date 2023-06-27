@@ -28,6 +28,7 @@ void Read_bin_file(graph *g, char *filename);
 void Add_User(graph *g);
 void Delete_user(graph *g);
 void Destroy_Friends(List *user);
+int Delete_Node(List *user, const char* nickname);
 void Add_friend(graph *g);
 void print_graph(graph *g);
 void Destory_Graph(graph *g);
