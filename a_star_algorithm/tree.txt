@@ -1,0 +1,886 @@
+6 8 7     6 7 _     _ 6 7     
+2 _ 5     2 8 5     2 8 5     
+1 3 4     1 3 4     1 3 4     
+g_score: 1     g_score: 1     g_score: 1     
+h_score: 20     h_score: 18     h_score: 18     
+f_score: 21     f_score: 19     f_score: 19     
+
+
+6 7 5     2 6 7     
+2 8 _     _ 8 5     
+1 3 4     1 3 4     
+g_score: 2     g_score: 2     
+h_score: 19     h_score: 17     
+f_score: 21     f_score: 19     
+
+
+2 6 7     2 6 7     
+1 8 5     8 _ 5     
+_ 3 4     1 3 4     
+g_score: 3     g_score: 3     
+h_score: 16     h_score: 18     
+f_score: 19     f_score: 21     
+
+
+2 6 7     
+1 8 5     
+3 _ 4     
+g_score: 4     
+h_score: 17     
+f_score: 21     
+
+
+2 6 7     2 6 7     
+1 _ 5     1 8 5     
+3 8 4     3 4 _     
+g_score: 5     g_score: 5     
+h_score: 16     h_score: 16     
+f_score: 21     f_score: 21     
+
+
+2 _ 7     2 6 7     2 6 7     2 6 7     
+1 6 5     1 5 _     _ 1 5     1 8 _     
+3 8 4     3 8 4     3 8 4     3 4 5     
+g_score: 6     g_score: 6     g_score: 6     g_score: 6     
+h_score: 15     h_score: 15     h_score: 17     h_score: 17     
+f_score: 21     f_score: 21     f_score: 23     f_score: 23     
+
+
+2 7 _     _ 2 7     2 6 _     2 6 7     
+1 6 5     1 6 5     1 5 7     1 5 4     
+3 8 4     3 8 4     3 8 4     3 8 _     
+g_score: 7     g_score: 7     g_score: 7     g_score: 7     
+h_score: 14     h_score: 14     h_score: 14     h_score: 14     
+f_score: 21     f_score: 21     f_score: 21     f_score: 21     
+
+
+2 7 5     1 2 7     2 _ 6     2 6 7     
+1 6 _     _ 6 5     1 5 7     1 5 4     
+3 8 4     3 8 4     3 8 4     3 _ 8     
+g_score: 8     g_score: 8     g_score: 8     g_score: 8     
+h_score: 15     h_score: 13     h_score: 13     h_score: 15     
+f_score: 23     f_score: 21     f_score: 21     f_score: 23     
+
+
+1 2 7     1 2 7     2 5 6     _ 2 6     
+3 6 5     6 _ 5     1 _ 7     1 5 7     
+_ 8 4     3 8 4     3 8 4     3 8 4     
+g_score: 9     g_score: 9     g_score: 9     g_score: 9     
+h_score: 12     h_score: 14     h_score: 14     h_score: 12     
+f_score: 21     f_score: 23     f_score: 23     f_score: 21     
+
+
+1 2 7     1 2 6     
+3 6 5     _ 5 7     
+8 _ 4     3 8 4     
+g_score: 10     g_score: 10     
+h_score: 13     h_score: 11     
+f_score: 23     f_score: 21     
+
+
+1 2 6     1 2 6     
+3 5 7     5 _ 7     
+_ 8 4     3 8 4     
+g_score: 11     g_score: 11     
+h_score: 10     h_score: 12     
+f_score: 21     f_score: 23     
+
+
+1 2 6     
+3 5 7     
+8 _ 4     
+g_score: 12     
+h_score: 11     
+f_score: 23     
+
+
+1 2 6     1 2 6     
+3 _ 7     3 5 7     
+8 5 4     8 4 _     
+g_score: 13     g_score: 13     
+h_score: 12     h_score: 10     
+f_score: 25     f_score: 23     
+
+
+1 2 6     
+3 5 _     
+8 4 7     
+g_score: 14     
+h_score: 9     
+f_score: 23     
+
+
+1 2 _     1 2 6     
+3 5 6     3 _ 5     
+8 4 7     8 4 7     
+g_score: 15     g_score: 15     
+h_score: 8     h_score: 10     
+f_score: 23     f_score: 25     
+
+
+1 _ 2     
+3 5 6     
+8 4 7     
+g_score: 16     
+h_score: 9     
+f_score: 25     
+
+
+1 5 2     _ 1 2     
+3 _ 6     3 5 6     
+8 4 7     8 4 7     
+g_score: 17     g_score: 17     
+h_score: 10     h_score: 10     
+f_score: 27     f_score: 27     
+
+
+1 5 2     1 5 2     1 5 2     3 1 2     
+3 4 6     3 6 _     _ 3 6     _ 5 6     
+8 _ 7     8 4 7     8 4 7     8 4 7     
+g_score: 18     g_score: 18     g_score: 18     g_score: 18     
+h_score: 9     h_score: 11     h_score: 9     h_score: 9     
+f_score: 27     f_score: 29     f_score: 27     f_score: 27     
+
+
+1 5 2     1 5 2     _ 5 2     1 5 2     3 1 2     3 1 2     
+3 4 6     3 4 6     1 3 6     8 3 6     8 5 6     5 _ 6     
+8 7 _     _ 8 7     8 4 7     _ 4 7     _ 4 7     8 4 7     
+g_score: 19     g_score: 19     g_score: 19     g_score: 19     g_score: 19     g_score: 19     
+h_score: 8     h_score: 8     h_score: 10     h_score: 10     h_score: 10     h_score: 10     
+f_score: 27     f_score: 27     f_score: 29     f_score: 29     f_score: 29     f_score: 29     
+
+
+1 5 2     1 5 2     
+3 4 _     _ 4 6     
+8 7 6     3 8 7     
+g_score: 20     g_score: 20     
+h_score: 9     h_score: 9     
+f_score: 29     f_score: 29     
+
+
+1 5 _     1 5 2     _ 5 2     1 5 2     
+3 4 2     3 _ 4     1 4 6     4 _ 6     
+8 7 6     8 7 6     3 8 7     3 8 7     
+g_score: 21     g_score: 21     g_score: 21     g_score: 21     
+h_score: 10     h_score: 10     h_score: 10     h_score: 8     
+f_score: 31     f_score: 31     f_score: 31     f_score: 29     
+
+
+1 _ 2     1 5 2     1 5 2     
+4 5 6     4 8 6     4 6 _     
+3 8 7     3 _ 7     3 8 7     
+g_score: 22     g_score: 22     g_score: 22     
+h_score: 7     h_score: 9     h_score: 9     
+f_score: 29     f_score: 31     f_score: 31     
+
+
+1 2 _     _ 1 2     
+4 5 6     4 5 6     
+3 8 7     3 8 7     
+g_score: 23     g_score: 23     
+h_score: 6     h_score: 8     
+f_score: 29     f_score: 31     
+
+
+1 2 6     
+4 5 _     
+3 8 7     
+g_score: 24     
+h_score: 7     
+f_score: 31     
+
+
+1 2 6     1 2 6     
+4 5 7     4 _ 5     
+3 8 _     3 8 7     
+g_score: 25     g_score: 25     
+h_score: 8     h_score: 8     
+f_score: 33     f_score: 33     
+
+
+1 2 6     1 _ 6     1 2 6     1 2 6     
+4 5 7     4 2 5     4 8 5     _ 4 5     
+3 _ 8     3 8 7     3 _ 7     3 8 7     
+g_score: 26     g_score: 26     g_score: 26     g_score: 26     
+h_score: 9     h_score: 9     h_score: 9     h_score: 9     
+f_score: 35     f_score: 35     f_score: 35     f_score: 35     
+
+
+1 2 6     1 2 6     1 6 _     _ 1 6     1 2 6     1 2 6     _ 2 6     1 2 6     
+4 _ 7     4 5 7     4 2 5     4 2 5     4 8 5     4 8 5     1 4 5     3 4 5     
+3 5 8     _ 3 8     3 8 7     3 8 7     3 7 _     _ 3 7     3 8 7     _ 8 7     
+g_score: 27     g_score: 27     g_score: 27     g_score: 27     g_score: 27     g_score: 27     g_score: 27     g_score: 27     
+h_score: 10     h_score: 8     h_score: 10     h_score: 10     h_score: 8     h_score: 8     h_score: 10     h_score: 8     
+f_score: 37     f_score: 35     f_score: 37     f_score: 37     f_score: 35     f_score: 35     f_score: 37     f_score: 35     
+
+
+1 2 6     1 2 6     1 2 6     1 2 6     
+_ 5 7     4 8 _     _ 8 5     3 4 5     
+4 3 8     3 7 5     4 3 7     8 _ 7     
+g_score: 28     g_score: 28     g_score: 28     g_score: 28     
+h_score: 9     h_score: 9     h_score: 9     h_score: 9     
+f_score: 37     f_score: 37     f_score: 37     f_score: 37     
+
+
+_ 2 6     1 2 6     1 2 _     1 2 6     _ 2 6     1 2 6     1 2 6     1 2 6     
+1 5 7     5 _ 7     4 8 6     4 _ 8     1 8 5     8 _ 5     3 _ 5     3 4 5     
+4 3 8     4 3 8     3 7 5     3 7 5     4 3 7     4 3 7     8 4 7     8 7 _     
+g_score: 29     g_score: 29     g_score: 29     g_score: 29     g_score: 29     g_score: 29     g_score: 29     g_score: 29     
+h_score: 10     h_score: 10     h_score: 8     h_score: 10     h_score: 10     h_score: 10     h_score: 10     h_score: 8     
+f_score: 39     f_score: 39     f_score: 37     f_score: 39     f_score: 39     f_score: 39     f_score: 39     f_score: 37     
+
+
+1 _ 2     1 2 6     
+4 8 6     3 4 _     
+3 7 5     8 7 5     
+g_score: 30     g_score: 30     
+h_score: 9     h_score: 9     
+f_score: 39     f_score: 39     
+
+
+1 8 2     _ 1 2     1 2 _     1 2 6     
+4 _ 6     4 8 6     3 4 6     3 _ 4     
+3 7 5     3 7 5     8 7 5     8 7 5     
+g_score: 31     g_score: 31     g_score: 31     g_score: 31     
+h_score: 10     h_score: 10     h_score: 8     h_score: 10     
+f_score: 41     f_score: 41     f_score: 39     f_score: 41     
+
+
+1 _ 2     
+3 4 6     
+8 7 5     
+g_score: 32     
+h_score: 9     
+f_score: 41     
+
+
+1 4 2     _ 1 2     
+3 _ 6     3 4 6     
+8 7 5     8 7 5     
+g_score: 33     g_score: 33     
+h_score: 10     h_score: 10     
+f_score: 43     f_score: 43     
+
+
+1 4 2     1 4 2     1 4 2     3 1 2     
+3 7 6     3 6 _     _ 3 6     _ 4 6     
+8 _ 5     8 7 5     8 7 5     8 7 5     
+g_score: 34     g_score: 34     g_score: 34     g_score: 34     
+h_score: 11     h_score: 11     h_score: 9     h_score: 9     
+f_score: 45     f_score: 45     f_score: 43     f_score: 43     
+
+
+_ 4 2     1 4 2     3 1 2     3 1 2     
+1 3 6     8 3 6     8 4 6     4 _ 6     
+8 7 5     _ 7 5     _ 7 5     8 7 5     
+g_score: 35     g_score: 35     g_score: 35     g_score: 35     
+h_score: 10     h_score: 10     h_score: 10     h_score: 8     
+f_score: 45     f_score: 45     f_score: 45     f_score: 43     
+
+
+3 _ 2     3 1 2     3 1 2     
+4 1 6     4 7 6     4 6 _     
+8 7 5     8 _ 5     8 7 5     
+g_score: 36     g_score: 36     g_score: 36     
+h_score: 9     h_score: 9     h_score: 9     
+f_score: 45     f_score: 45     f_score: 45     
+
+
+3 2 _     _ 3 2     3 1 2     3 1 2     3 1 _     3 1 2     
+4 1 6     4 1 6     4 7 6     4 7 6     4 6 2     4 6 5     
+8 7 5     8 7 5     8 5 _     _ 8 5     8 7 5     8 7 _     
+g_score: 37     g_score: 37     g_score: 37     g_score: 37     g_score: 37     g_score: 37     
+h_score: 8     h_score: 8     h_score: 8     h_score: 8     h_score: 10     h_score: 8     
+f_score: 45     f_score: 45     f_score: 45     f_score: 45     f_score: 47     f_score: 45     
+
+
+3 2 6     4 3 2     3 1 2     3 1 2     3 1 2     
+4 1 _     _ 1 6     4 7 _     _ 7 6     4 6 5     
+8 7 5     8 7 5     8 5 6     4 8 5     8 _ 7     
+g_score: 38     g_score: 38     g_score: 38     g_score: 38     g_score: 38     
+h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     
+f_score: 47     f_score: 47     f_score: 47     f_score: 47     f_score: 47     
+
+
+3 2 6     3 2 6     4 3 2     4 3 2     3 1 _     3 1 2     _ 1 2     3 1 2     3 1 2     3 1 2     
+4 1 5     4 _ 1     8 1 6     1 _ 6     4 7 2     4 _ 7     3 7 6     7 _ 6     4 _ 5     4 6 5     
+8 7 _     8 7 5     _ 7 5     8 7 5     8 5 6     8 5 6     4 8 5     4 8 5     8 6 7     _ 8 7     
+g_score: 39     g_score: 39     g_score: 39     g_score: 39     g_score: 39     g_score: 39     g_score: 39     g_score: 39     g_score: 39     g_score: 39     
+h_score: 8     h_score: 10     h_score: 10     h_score: 8     h_score: 10     h_score: 10     h_score: 10     h_score: 8     h_score: 10     h_score: 8     
+f_score: 47     f_score: 49     f_score: 49     f_score: 47     f_score: 49     f_score: 49     f_score: 49     f_score: 47     f_score: 49     f_score: 47     
+
+
+3 2 6     4 _ 2     4 3 2     4 3 2     3 _ 2     3 1 2     3 1 2     3 1 2     
+4 1 5     1 3 6     1 7 6     1 6 _     7 1 6     7 8 6     7 6 _     _ 6 5     
+8 _ 7     8 7 5     8 _ 5     8 7 5     4 8 5     4 _ 5     4 8 5     4 8 7     
+g_score: 40     g_score: 40     g_score: 40     g_score: 40     g_score: 40     g_score: 40     g_score: 40     g_score: 40     
+h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     
+f_score: 49     f_score: 49     f_score: 49     f_score: 49     f_score: 49     f_score: 49     f_score: 49     f_score: 49     
+
+
+3 2 6     3 2 6     4 2 _     _ 4 2     4 3 2     4 3 2     4 3 _     4 3 2     3 2 _     _ 3 2     3 1 2     3 1 2     3 1 _     3 1 2     _ 1 2     3 1 2     
+4 _ 5     4 1 5     1 3 6     1 3 6     1 7 6     1 7 6     1 6 2     1 6 5     7 1 6     7 1 6     7 8 6     7 8 6     7 6 2     7 6 5     3 6 5     6 _ 5     
+8 1 7     _ 8 7     8 7 5     8 7 5     8 5 _     _ 8 5     8 7 5     8 7 _     4 8 5     4 8 5     4 5 _     _ 4 5     4 8 5     4 8 _     4 8 7     4 8 7     
+g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     g_score: 41     
+h_score: 10     h_score: 8     h_score: 8     h_score: 10     h_score: 8     h_score: 8     h_score: 10     h_score: 8     h_score: 8     h_score: 8     h_score: 8     h_score: 10     h_score: 10     h_score: 8     h_score: 10     h_score: 10     
+f_score: 51     f_score: 49     f_score: 49     f_score: 51     f_score: 49     f_score: 49     f_score: 51     f_score: 49     f_score: 49     f_score: 49     f_score: 49     f_score: 51     f_score: 51     f_score: 49     f_score: 51     f_score: 51     
+
+
+3 2 6     4 2 6     4 3 2     4 3 2     4 3 2     3 2 6     7 3 2     3 1 2     3 1 2     
+_ 1 5     1 3 _     1 7 _     _ 7 6     1 6 5     7 1 _     _ 1 6     7 8 _     7 6 5     
+4 8 7     8 7 5     8 5 6     1 8 5     8 _ 7     4 8 5     4 8 5     4 5 6     4 _ 8     
+g_score: 42     g_score: 42     g_score: 42     g_score: 42     g_score: 42     g_score: 42     g_score: 42     g_score: 42     g_score: 42     
+h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     
+f_score: 51     f_score: 51     f_score: 51     f_score: 51     f_score: 51     f_score: 51     f_score: 51     f_score: 51     f_score: 51     
+
+
+_ 2 6     3 2 6     4 2 6     4 2 6     4 3 _     4 3 2     _ 3 2     4 3 2     4 3 2     4 3 2     3 2 6     3 2 6     7 3 2     7 3 2     3 1 _     3 1 2     3 1 2     3 1 2     
+3 1 5     1 _ 5     1 3 5     1 _ 3     1 7 2     1 _ 7     4 7 6     7 _ 6     1 _ 5     1 6 5     7 1 5     7 _ 1     4 1 6     1 _ 6     7 8 2     7 _ 8     7 _ 5     7 6 5     
+4 8 7     4 8 7     8 7 _     8 7 5     8 5 6     8 5 6     1 8 5     1 8 5     8 6 7     _ 8 7     4 8 _     4 8 5     _ 8 5     4 8 5     4 5 6     4 5 6     4 6 8     _ 4 8     
+g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     g_score: 43     
+h_score: 10     h_score: 8     h_score: 8     h_score: 8     h_score: 10     h_score: 10     h_score: 8     h_score: 8     h_score: 10     h_score: 8     h_score: 8     h_score: 10     h_score: 8     h_score: 8     h_score: 10     h_score: 10     h_score: 10     h_score: 10     
+f_score: 53     f_score: 51     f_score: 51     f_score: 51     f_score: 53     f_score: 53     f_score: 51     f_score: 51     f_score: 53     f_score: 51     f_score: 51     f_score: 53     f_score: 51     f_score: 51     f_score: 53     f_score: 53     f_score: 53     f_score: 53     
+
+
+3 _ 6     3 2 6     3 2 6     4 2 6     4 _ 6     4 2 6     4 2 6     3 _ 2     4 _ 2     4 3 2     4 3 2     4 3 2     3 2 6     7 3 2     7 _ 2     7 3 2     7 3 2     
+1 2 5     1 8 5     1 5 _     1 3 5     1 2 3     1 7 3     _ 1 3     4 7 6     7 3 6     7 8 6     7 6 _     _ 6 5     7 1 5     4 1 6     1 3 6     1 8 6     1 6 _     
+4 8 7     4 _ 7     4 8 7     8 _ 7     8 7 5     8 _ 5     8 7 5     1 8 5     1 8 5     1 _ 5     1 8 5     1 8 7     4 _ 8     8 _ 5     4 8 5     4 _ 5     4 8 5     
+g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     g_score: 44     
+h_score: 9     h_score: 9     h_score: 7     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     h_score: 9     
+f_score: 53     f_score: 53     f_score: 51     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     f_score: 53     
+
+
+3 2 _     3 2 6     
+1 5 6     1 5 7     
+4 8 7     4 8 _     
+g_score: 45     g_score: 45     
+h_score: 6     h_score: 8     
+f_score: 51     f_score: 53     
+
+
+3 _ 2     
+1 5 6     
+4 8 7     
+g_score: 46     
+h_score: 7     
+f_score: 53     
+
+
+3 5 2     _ 3 2     
+1 _ 6     1 5 6     
+4 8 7     4 8 7     
+g_score: 47     g_score: 47     
+h_score: 8     h_score: 6     
+f_score: 55     f_score: 53     
+
+
+1 3 2     
+_ 5 6     
+4 8 7     
+g_score: 48     
+h_score: 5     
+f_score: 53     
+
+
+1 3 2     1 3 2     
+4 5 6     5 _ 6     
+_ 8 7     4 8 7     
+g_score: 49     g_score: 49     
+h_score: 4     h_score: 6     
+f_score: 53     f_score: 55     
+
+
+1 3 2     
+4 5 6     
+8 _ 7     
+g_score: 50     
+h_score: 5     
+f_score: 55     
+
+
+1 3 2     1 3 2     
+4 _ 6     4 5 6     
+8 5 7     8 7 _     
+g_score: 51     g_score: 51     
+h_score: 6     h_score: 4     
+f_score: 57     f_score: 55     
+
+
+1 3 2     
+4 5 _     
+8 7 6     
+g_score: 52     
+h_score: 5     
+f_score: 57     
+
+
+1 3 _     1 3 2     
+4 5 2     4 _ 5     
+8 7 6     8 7 6     
+g_score: 53     g_score: 53     
+h_score: 6     h_score: 6     
+f_score: 59     f_score: 59     
+
+
+1 _ 3     1 _ 2     1 3 2     1 3 2     
+4 5 2     4 3 5     4 7 5     _ 4 5     
+8 7 6     8 7 6     8 _ 6     8 7 6     
+g_score: 54     g_score: 54     g_score: 54     g_score: 54     
+h_score: 5     h_score: 7     h_score: 7     h_score: 7     
+f_score: 59     f_score: 61     f_score: 61     f_score: 61     
+
+
+1 5 3     _ 1 3     
+4 _ 2     4 5 2     
+8 7 6     8 7 6     
+g_score: 55     g_score: 55     
+h_score: 6     h_score: 6     
+f_score: 61     f_score: 61     
+
+
+1 5 3     1 5 3     1 5 3     4 1 3     
+4 7 2     4 2 _     _ 4 2     _ 5 2     
+8 _ 6     8 7 6     8 7 6     8 7 6     
+g_score: 56     g_score: 56     g_score: 56     g_score: 56     
+h_score: 7     h_score: 5     h_score: 7     h_score: 7     
+f_score: 63     f_score: 61     f_score: 63     f_score: 63     
+
+
+1 5 _     1 5 3     
+4 2 3     4 2 6     
+8 7 6     8 7 _     
+g_score: 57     g_score: 57     
+h_score: 6     h_score: 4     
+f_score: 63     f_score: 61     
+
+
+1 5 3     
+4 2 6     
+8 _ 7     
+g_score: 58     
+h_score: 5     
+f_score: 63     
+
+
+1 5 3     1 5 3     
+4 _ 6     4 2 6     
+8 2 7     _ 8 7     
+g_score: 59     g_score: 59     
+h_score: 6     h_score: 4     
+f_score: 65     f_score: 63     
+
+
+1 5 3     
+_ 2 6     
+4 8 7     
+g_score: 60     
+h_score: 5     
+f_score: 65     
+
+
+_ 5 3     1 5 3     
+1 2 6     2 _ 6     
+4 8 7     4 8 7     
+g_score: 61     g_score: 61     
+h_score: 6     h_score: 6     
+f_score: 67     f_score: 67     
+
+
+5 _ 3     1 _ 3     1 5 3     1 5 3     
+1 2 6     2 5 6     2 8 6     2 6 _     
+4 8 7     4 8 7     4 _ 7     4 8 7     
+g_score: 62     g_score: 62     g_score: 62     g_score: 62     
+h_score: 7     h_score: 5     h_score: 7     h_score: 7     
+f_score: 69     f_score: 67     f_score: 69     f_score: 69     
+
+
+1 3 _     _ 1 3     
+2 5 6     2 5 6     
+4 8 7     4 8 7     
+g_score: 63     g_score: 63     
+h_score: 6     h_score: 6     
+f_score: 69     f_score: 69     
+
+
+1 3 6     2 1 3     
+2 5 _     _ 5 6     
+4 8 7     4 8 7     
+g_score: 64     g_score: 64     
+h_score: 7     h_score: 5     
+f_score: 71     f_score: 69     
+
+
+2 1 3     2 1 3     
+4 5 6     5 _ 6     
+_ 8 7     4 8 7     
+g_score: 65     g_score: 65     
+h_score: 4     h_score: 6     
+f_score: 69     f_score: 71     
+
+
+2 1 3     
+4 5 6     
+8 _ 7     
+g_score: 66     
+h_score: 5     
+f_score: 71     
+
+
+2 1 3     2 1 3     
+4 _ 6     4 5 6     
+8 5 7     8 7 _     
+g_score: 67     g_score: 67     
+h_score: 6     h_score: 4     
+f_score: 73     f_score: 71     
+
+
+2 1 3     
+4 5 _     
+8 7 6     
+g_score: 68     
+h_score: 5     
+f_score: 73     
+
+
+2 1 _     2 1 3     
+4 5 3     4 _ 5     
+8 7 6     8 7 6     
+g_score: 69     g_score: 69     
+h_score: 6     h_score: 6     
+f_score: 75     f_score: 75     
+
+
+2 _ 1     2 _ 3     2 1 3     2 1 3     
+4 5 3     4 1 5     4 7 5     _ 4 5     
+8 7 6     8 7 6     8 _ 6     8 7 6     
+g_score: 70     g_score: 70     g_score: 70     g_score: 70     
+h_score: 7     h_score: 7     h_score: 7     h_score: 7     
+f_score: 77     f_score: 77     f_score: 77     f_score: 77     
+
+
+2 5 1     _ 2 1     2 3 _     _ 2 3     2 1 3     2 1 3     _ 1 3     2 1 3     
+4 _ 3     4 5 3     4 1 5     4 1 5     4 7 5     4 7 5     2 4 5     8 4 5     
+8 7 6     8 7 6     8 7 6     8 7 6     8 6 _     _ 8 6     8 7 6     _ 7 6     
+g_score: 71     g_score: 71     g_score: 71     g_score: 71     g_score: 71     g_score: 71     g_score: 71     g_score: 71     
+h_score: 8     h_score: 6     h_score: 8     h_score: 6     h_score: 8     h_score: 6     h_score: 8     h_score: 8     
+f_score: 79     f_score: 77     f_score: 79     f_score: 77     f_score: 79     f_score: 77     f_score: 79     f_score: 79     
+
+
+4 2 1     4 2 3     2 1 3     
+_ 5 3     _ 1 5     _ 7 5     
+8 7 6     8 7 6     4 8 6     
+g_score: 72     g_score: 72     g_score: 72     
+h_score: 7     h_score: 7     h_score: 7     
+f_score: 79     f_score: 79     f_score: 79     
+
+
+4 2 1     4 2 1     4 2 3     4 2 3     _ 1 3     2 1 3     
+8 5 3     5 _ 3     8 1 5     1 _ 5     2 7 5     7 _ 5     
+_ 7 6     8 7 6     _ 7 6     8 7 6     4 8 6     4 8 6     
+g_score: 73     g_score: 73     g_score: 73     g_score: 73     g_score: 73     g_score: 73     
+h_score: 8     h_score: 8     h_score: 8     h_score: 6     h_score: 8     h_score: 6     
+f_score: 81     f_score: 81     f_score: 81     f_score: 79     f_score: 81     f_score: 79     
+
+
+4 _ 3     4 2 3     4 2 3     2 _ 3     2 1 3     2 1 3     
+1 2 5     1 7 5     1 5 _     7 1 5     7 8 5     7 5 _     
+8 7 6     8 _ 6     8 7 6     4 8 6     4 _ 6     4 8 6     
+g_score: 74     g_score: 74     g_score: 74     g_score: 74     g_score: 74     g_score: 74     
+h_score: 7     h_score: 7     h_score: 5     h_score: 7     h_score: 7     h_score: 5     
+f_score: 81     f_score: 81     f_score: 79     f_score: 81     f_score: 81     f_score: 79     
+
+
+4 2 _     4 2 3     2 1 _     2 1 3     
+1 5 3     1 5 6     7 5 3     7 5 6     
+8 7 6     8 7 _     4 8 6     4 8 _     
+g_score: 75     g_score: 75     g_score: 75     g_score: 75     
+h_score: 6     h_score: 4     h_score: 6     h_score: 4     
+f_score: 81     f_score: 79     f_score: 81     f_score: 79     
+
+
+4 2 3     2 1 3     
+1 5 6     7 5 6     
+8 _ 7     4 _ 8     
+g_score: 76     g_score: 76     
+h_score: 5     h_score: 5     
+f_score: 81     f_score: 81     
+
+
+4 2 3     4 2 3     2 1 3     2 1 3     
+1 _ 6     1 5 6     7 _ 6     7 5 6     
+8 5 7     _ 8 7     4 5 8     _ 4 8     
+g_score: 77     g_score: 77     g_score: 77     g_score: 77     
+h_score: 6     h_score: 4     h_score: 6     h_score: 6     
+f_score: 83     f_score: 81     f_score: 83     f_score: 83     
+
+
+4 2 3     
+_ 5 6     
+1 8 7     
+g_score: 78     
+h_score: 5     
+f_score: 83     
+
+
+_ 2 3     4 2 3     
+4 5 6     5 _ 6     
+1 8 7     1 8 7     
+g_score: 79     g_score: 79     
+h_score: 4     h_score: 6     
+f_score: 83     f_score: 85     
+
+
+2 _ 3     
+4 5 6     
+1 8 7     
+g_score: 80     
+h_score: 5     
+f_score: 85     
+
+
+2 5 3     2 3 _     
+4 _ 6     4 5 6     
+1 8 7     1 8 7     
+g_score: 81     g_score: 81     
+h_score: 6     h_score: 6     
+f_score: 87     f_score: 87     
+
+
+2 5 3     2 5 3     2 5 3     2 3 6     
+4 8 6     4 6 _     _ 4 6     4 5 _     
+1 _ 7     1 8 7     1 8 7     1 8 7     
+g_score: 82     g_score: 82     g_score: 82     g_score: 82     
+h_score: 7     h_score: 7     h_score: 7     h_score: 7     
+f_score: 89     f_score: 89     f_score: 89     f_score: 89     
+
+
+2 5 3     2 5 3     2 5 _     2 5 3     _ 5 3     2 5 3     2 3 6     2 3 6     
+4 8 6     4 8 6     4 6 3     4 6 7     2 4 6     1 4 6     4 5 7     4 _ 5     
+1 7 _     _ 1 7     1 8 7     1 8 _     1 8 7     _ 8 7     1 8 _     1 8 7     
+g_score: 83     g_score: 83     g_score: 83     g_score: 83     g_score: 83     g_score: 83     g_score: 83     g_score: 83     
+h_score: 6     h_score: 8     h_score: 8     h_score: 8     h_score: 8     h_score: 6     h_score: 8     h_score: 8     
+f_score: 89     f_score: 91     f_score: 91     f_score: 91     f_score: 91     f_score: 89     f_score: 91     f_score: 91     
+
+
+2 5 3     2 5 3     
+4 8 _     1 4 6     
+1 7 6     8 _ 7     
+g_score: 84     g_score: 84     
+h_score: 7     h_score: 7     
+f_score: 91     f_score: 91     
+
+
+2 5 _     2 5 3     2 5 3     2 5 3     
+4 8 3     4 _ 8     1 _ 6     1 4 6     
+1 7 6     1 7 6     8 4 7     8 7 _     
+g_score: 85     g_score: 85     g_score: 85     g_score: 85     
+h_score: 8     h_score: 8     h_score: 8     h_score: 6     
+f_score: 93     f_score: 93     f_score: 93     f_score: 91     
+
+
+2 5 3     
+1 4 _     
+8 7 6     
+g_score: 86     
+h_score: 7     
+f_score: 93     
+
+
+2 5 _     2 5 3     
+1 4 3     1 _ 4     
+8 7 6     8 7 6     
+g_score: 87     g_score: 87     
+h_score: 8     h_score: 8     
+f_score: 95     f_score: 95     
+
+
+2 _ 5     2 _ 3     2 5 3     2 5 3     
+1 4 3     1 5 4     1 7 4     _ 1 4     
+8 7 6     8 7 6     8 _ 6     8 7 6     
+g_score: 88     g_score: 88     g_score: 88     g_score: 88     
+h_score: 9     h_score: 7     h_score: 9     h_score: 9     
+f_score: 97     f_score: 95     f_score: 97     f_score: 97     
+
+
+2 3 _     _ 2 3     
+1 5 4     1 5 4     
+8 7 6     8 7 6     
+g_score: 89     g_score: 89     
+h_score: 8     h_score: 6     
+f_score: 97     f_score: 95     
+
+
+1 2 3     
+_ 5 4     
+8 7 6     
+g_score: 90     
+h_score: 5     
+f_score: 95     
+
+
+1 2 3     1 2 3     
+8 5 4     5 _ 4     
+_ 7 6     8 7 6     
+g_score: 91     g_score: 91     
+h_score: 6     h_score: 6     
+f_score: 97     f_score: 97     
+
+
+1 2 3     1 _ 3     1 2 3     1 2 3     
+8 5 4     5 2 4     5 7 4     5 4 _     
+7 _ 6     8 7 6     8 _ 6     8 7 6     
+g_score: 92     g_score: 92     g_score: 92     g_score: 92     
+h_score: 5     h_score: 7     h_score: 7     h_score: 5     
+f_score: 97     f_score: 99     f_score: 99     f_score: 97     
+
+
+1 2 3     1 2 3     1 2 _     1 2 3     
+8 _ 4     8 5 4     5 4 3     5 4 6     
+7 5 6     7 6 _     8 7 6     8 7 _     
+g_score: 93     g_score: 93     g_score: 93     g_score: 93     
+h_score: 6     h_score: 6     h_score: 6     h_score: 4     
+f_score: 99     f_score: 99     f_score: 99     f_score: 97     
+
+
+1 2 3     
+5 4 6     
+8 _ 7     
+g_score: 94     
+h_score: 5     
+f_score: 99     
+
+
+1 2 3     1 2 3     
+5 _ 6     5 4 6     
+8 4 7     _ 8 7     
+g_score: 95     g_score: 95     
+h_score: 6     h_score: 4     
+f_score: 101     f_score: 99     
+
+
+1 2 3     
+_ 4 6     
+5 8 7     
+g_score: 96     
+h_score: 5     
+f_score: 101     
+
+
+_ 2 3     1 2 3     
+1 4 6     4 _ 6     
+5 8 7     5 8 7     
+g_score: 97     g_score: 97     
+h_score: 6     h_score: 4     
+f_score: 103     f_score: 101     
+
+
+1 _ 3     1 2 3     1 2 3     
+4 2 6     4 8 6     4 6 _     
+5 8 7     5 _ 7     5 8 7     
+g_score: 98     g_score: 98     g_score: 98     
+h_score: 5     h_score: 5     h_score: 5     
+f_score: 103     f_score: 103     f_score: 103     
+
+
+1 3 _     _ 1 3     1 2 3     1 2 3     1 2 _     1 2 3     
+4 2 6     4 2 6     4 8 6     4 8 6     4 6 3     4 6 7     
+5 8 7     5 8 7     5 7 _     _ 5 7     5 8 7     5 8 _     
+g_score: 99     g_score: 99     g_score: 99     g_score: 99     g_score: 99     g_score: 99     
+h_score: 6     h_score: 6     h_score: 4     h_score: 4     h_score: 6     h_score: 6     
+f_score: 105     f_score: 105     f_score: 103     f_score: 103     f_score: 105     f_score: 105     
+
+
+1 2 3     1 2 3     
+4 8 _     _ 8 6     
+5 7 6     4 5 7     
+g_score: 100     g_score: 100     
+h_score: 5     h_score: 5     
+f_score: 105     f_score: 105     
+
+
+1 2 _     1 2 3     _ 2 3     1 2 3     
+4 8 3     4 _ 8     1 8 6     8 _ 6     
+5 7 6     5 7 6     4 5 7     4 5 7     
+g_score: 101     g_score: 101     g_score: 101     g_score: 101     
+h_score: 6     h_score: 6     h_score: 6     h_score: 6     
+f_score: 107     f_score: 107     f_score: 107     f_score: 107     
+
+
+1 _ 2     1 _ 3     1 2 3     1 2 3     2 _ 3     1 _ 3     1 2 3     1 2 3     
+4 8 3     4 2 8     4 7 8     _ 4 8     1 8 6     8 2 6     8 5 6     8 6 _     
+5 7 6     5 7 6     5 _ 6     5 7 6     4 5 7     4 5 7     4 _ 7     4 5 7     
+g_score: 102     g_score: 102     g_score: 102     g_score: 102     g_score: 102     g_score: 102     g_score: 102     g_score: 102     
+h_score: 7     h_score: 7     h_score: 7     h_score: 7     h_score: 7     h_score: 7     h_score: 5     h_score: 7     
+f_score: 109     f_score: 109     f_score: 109     f_score: 109     f_score: 109     f_score: 109     f_score: 107     f_score: 109     
+
+
+1 2 3     1 2 3     
+8 5 6     8 5 6     
+4 7 _     _ 4 7     
+g_score: 103     g_score: 103     
+h_score: 4     h_score: 6     
+f_score: 107     f_score: 109     
+
+
+1 2 3     
+8 5 _     
+4 7 6     
+g_score: 104     
+h_score: 5     
+f_score: 109     
+
+
+1 2 _     1 2 3     
+8 5 3     8 _ 5     
+4 7 6     4 7 6     
+g_score: 105     g_score: 105     
+h_score: 6     h_score: 6     
+f_score: 111     f_score: 111     
+
+
+1 _ 2     1 _ 3     1 2 3     1 2 3     
+8 5 3     8 2 5     8 7 5     _ 8 5     
+4 7 6     4 7 6     4 _ 6     4 7 6     
+g_score: 106     g_score: 106     g_score: 106     g_score: 106     
+h_score: 7     h_score: 7     h_score: 7     h_score: 5     
+f_score: 113     f_score: 113     f_score: 113     f_score: 111     
+
+
+_ 2 3     1 2 3     
+1 8 5     4 8 5     
+4 7 6     _ 7 6     
+g_score: 107     g_score: 107     
+h_score: 6     h_score: 4     
+f_score: 113     f_score: 111     
+
+
+1 2 3     
+4 8 5     
+7 _ 6     
+g_score: 108     
+h_score: 3     
+f_score: 111     
+
+
+1 2 3     1 2 3     
+4 _ 5     4 8 5     
+7 8 6     7 6 _     
+g_score: 109     g_score: 109     
+h_score: 2     h_score: 4     
+f_score: 111     f_score: 113     
+
+
+1 _ 3     1 2 3     1 2 3     
+4 2 5     4 5 _     _ 4 5     
+7 8 6     7 8 6     7 8 6     
+g_score: 110     g_score: 110     g_score: 110     
+h_score: 3     h_score: 1     h_score: 3     
+f_score: 113     f_score: 111     f_score: 113     
+
+
+1 2 _     1 2 3     
+4 5 3     4 5 6     
+7 8 6     7 8 _     
+g_score: 111     g_score: 111     
+h_score: 2     h_score: 0     
+f_score: 113     f_score: 111     
