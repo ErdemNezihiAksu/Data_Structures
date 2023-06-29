@@ -221,8 +221,17 @@ label:
     else
     {
         iterNode = iterList_from->head;
-        while (iterNode->next != NULL)
+        while(iterNode != NULL)
+        {
+            if(strcmp(iterNode->buddy.nickname,iterList_to->person.nickname) == 0)
+            {
+                printf("%s and %s are already friends\n",iterList_from->person.nickname,iterList_to->person.nickname);
+                return;
+            }
+            if(iterNode->next == NULL)
+                break;
             iterNode = iterNode->next;
+        }
         iterNode->next = newNode;
     }
     iterList_from->friend_count++;
@@ -264,15 +273,20 @@ void Delete_user(graph *g)
             temp = iterL->next;
             iterL->next = iterL->next->next;
             free(temp);
-            flag = 1;
+            if(iterL->next == NULL)
+                flag = 2;
+            else
+                flag = 1;
         }
         if (iterL->friend_count != 0)
         {
             Delete_Node(iterL, nickname);
         }
+        if(flag == 2)
+            break;
         iterL = iterL->next;
     }
-    if (iterL->friend_count != 0)
+    if (iterL->friend_count != 0 && flag != 2)
         Delete_Node(iterL, nickname);
 
     if (flag == 0)

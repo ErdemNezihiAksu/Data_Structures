@@ -55,6 +55,11 @@ int main()
             Add_friend(g);
             break;
         case 5:
+            if(g->user_count == 0)
+            {
+                printf("No user\n");
+                break;
+            }
         label:
             printf("Enter the user's nickname: ");
             scanf("%9[^\n]", nickname);
